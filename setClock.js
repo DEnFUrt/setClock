@@ -33,10 +33,10 @@ const addLeadZero = tempTime => {
             clockLED = '00';
             break;
         case tempTime <= 9 :
-            clockLED = '0' + tempTime;
+            clockLED = `0${tempTime.toString()}`;
             break;
         default :
-            clockLED = String(tempTime);
+            clockLED = tempTime.toString();
             break; 
     }
 
