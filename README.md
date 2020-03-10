@@ -73,6 +73,7 @@ Site сountdown timer
 ```js
     day.textContent = addLeadZero(interimClock.day);
 ``` 
+Пример модуля https://github.com/DEnFUrt/setClock/blob/master/setClockDay.js 
 
 ## Contributing
 
